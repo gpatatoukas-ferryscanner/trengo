@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ferryscanner</title>
+</head>
+<body>
+
+  <!-- Trengo Chat Widget -->
+  <script>
+    window.Trengo = window.Trengo || {};
+    window.Trengo.key = "3bLKT0n89yq7IfPQkW0s";
+
+    window.Trengo.on_ready = function() {
+      window.Trengo.Api.Widget.open('chat');
+    };
+
+    (function(d, s) {
+      var ts = d.createElement(s);
+      ts.src = "https://static.widget.trengo.eu/embed.js";
+      ts.async = true;
+      d.getElementsByTagName("head")[0].appendChild(ts);
+    })(document, "script");
+  </script>
+
+</body>
+</html>
